@@ -1,4 +1,4 @@
-"""Game calculators for Lords Rush Bot
+"""Game calculators for Lord Rush Bot
 
 Provides calculation utilities for:
 - Troop training & promotion costs (T1-T11)

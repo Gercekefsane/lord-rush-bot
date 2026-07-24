@@ -4,7 +4,7 @@
 
 ### 🌐 [woscontrol.com](https://woscontrol.com)
 
-**Run your own branded Lords Rush bot — with YOUR name, YOUR avatar, YOUR identity.**
+**Run your own branded Lord Rush bot — with YOUR name, YOUR avatar, YOUR identity.**
 
 </div>
 
@@ -16,7 +16,7 @@ WhiteLabel lets you create your **own private bot instance** using your own Disc
 
 | Feature | Standard Bot | WhiteLabel Bot |
 |---------|-------------|----------------|
-| Bot Name | Lords Rush Bot | **Your custom name** |
+| Bot Name | Lord Rush Bot | **Your custom name** |
 | Bot Avatar | Default logo | **Your custom avatar** |
 | Welcome Message | Default | **Fully customizable** |
 | Branding | woscontrol.com | **Your alliance brand** |
@@ -28,7 +28,7 @@ WhiteLabel lets you create your **own private bot instance** using your own Disc
 ## ✨ What's Included?
 
 ### 🎮 Full Game Features
-- **Auto Gift Code Redemption** — Automatically finds & redeems Lords Rush codes for all members
+- **Auto Gift Code Redemption** — Automatically finds & redeems Lord Rush codes for all members
 - **Kingdom-Aware Redemption** — Every code is redeemed against the correct kingdom (`kid`), no captcha, no login step
 - **Alliance Management** — Add, remove, and track members with ease
 - **Leaderboard** — Alliance & member rankings by codes redeemed and activity

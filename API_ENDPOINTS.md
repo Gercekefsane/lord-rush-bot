@@ -1,4 +1,4 @@
-# Lords Rush — Live API Surface
+# Lord Rush — Live API Surface
 
 ![endpoints 4](https://img.shields.io/badge/endpoints-4-57606a?style=flat-square)
 ![live 2](https://img.shields.io/badge/live-2-2ea44f?style=flat-square)
@@ -7,7 +7,7 @@
 
 <sub>Backend `s01-gm-report-api-prod-eo.centurygame.com/api` &nbsp;·&nbsp; frontend `ls-giftcode.centurygame.com` &nbsp;·&nbsp; Vue SPA (game shown as "Lord Rush") &nbsp;·&nbsp; last scanned 24/07/2026 09:00 UTC</sub>
 
-This document mirrors the gift-code API of **Lords Rush** exactly as the game's own public web client describes it — the endpoints its frontend calls, which of them the backend still answers, the request parameters, the encrypt key, and the signature scheme. It is produced by an automated scan that only reads Century Games' public JavaScript and probes their public API. We observe; we never modify the game's API, and never touch our own redemption keys.
+This document mirrors the gift-code API of **Lord Rush** exactly as the game's own public web client describes it — the endpoints its frontend calls, which of them the backend still answers, the request parameters, the encrypt key, and the signature scheme. It is produced by an automated scan that only reads Century Games' public JavaScript and probes their public API. We observe; we never modify the game's API, and never touch our own redemption keys.
 
 ---
 
@@ -23,7 +23,7 @@ This document mirrors the gift-code API of **Lords Rush** exactly as the game's 
 <sub>**Backend** is probed with a deliberately invalid, side-effect-free body and classified purely on HTTP status — `live` = the host answered (any 2xx/4xx other than 404), `removed` = the host returns 404. The **Method** column is the verb the frontend uses; the liveness probe always POSTs, and a 404 comes back regardless of verb, so it cleanly proves removal.</sub>
 
 > [!IMPORTANT]
-> **Lords Rush redeems in a single signed call.** Unlike the older captcha-and-login flow, redemption here is **one** signed `POST /gift_code` — there is **no** player-login step and **no** captcha. Century Games never shipped (or has since dropped) the `/player` and `/captcha` routes for this game; both now answer 404, mirroring the same removal on Century's other titles. Each removal is dated in the [change timeline](API_DATAMINING.md).
+> **Lord Rush redeems in a single signed call.** Unlike the older captcha-and-login flow, redemption here is **one** signed `POST /gift_code` — there is **no** player-login step and **no** captcha. Century Games never shipped (or has since dropped) the `/player` and `/captcha` routes for this game; both now answer 404, mirroring the same removal on Century's other titles. Each removal is dated in the [change timeline](API_DATAMINING.md).
 
 <details>
 <summary><b>Verify it yourself</b> — read-only, one status probe per path</summary>
@@ -76,7 +76,7 @@ Payload keys are extracted as **one set per bundle chunk, not per endpoint**. Th
 ![flow signed single-call](https://img.shields.io/badge/flow-signed%20single--call-2ea44f?style=flat-square)
 ![source observed](https://img.shields.io/badge/source-observed-57606a?style=flat-square)
 
-How **Lords Rush**'s gift-code backend replies, and what our redeemer does with each reply. These are **our own observations** of Century Games' `err_code` values — read off our redemption handler, **not** produced by the scanner — so this table is hand-maintained. `terminal` = we stop; `needs review` = we stop and never delete anything, a human corrects it.
+How **Lord Rush**'s gift-code backend replies, and what our redeemer does with each reply. These are **our own observations** of Century Games' `err_code` values — read off our redemption handler, **not** produced by the scanner — so this table is hand-maintained. `terminal` = we stop; `needs review` = we stop and never delete anything, a human corrects it.
 
 | `err_code` | Our label | Handling | What it means |
 |---|---|:--:|---|
@@ -105,4 +105,4 @@ The `/gift_code` endpoint carries **no fixed requests-per-second limit** we have
 
 The scanner is read-and-report only. It writes to two database tables and to these public documents — never to `api_keys.json`, `config.py`, or the redeem path. The full change history lives in the append-only [change timeline](API_DATAMINING.md).
 
-<sub>Generated from Century Games' public gift-code client · Lords Rush · scan is read-only · published for transparency.</sub>
+<sub>Generated from Century Games' public gift-code client · Lord Rush · scan is read-only · published for transparency.</sub>

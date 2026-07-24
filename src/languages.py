@@ -1,4 +1,4 @@
-# Multi-language support for Lords Rush Bot
+# Multi-language support for Lord Rush Bot
 # Loads translations from JSON files in locales/ directory
 
 import json

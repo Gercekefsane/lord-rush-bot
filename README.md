@@ -13,9 +13,9 @@
 
 <br><br>
 
-# ⚔️ Lords Rush Bot
+# ⚔️ Lord Rush Bot
 
-### The Ultimate Gift Code & Alliance Management Bot for Lords Rush
+### The Ultimate Gift Code & Alliance Management Bot for Lord Rush
 
 <br>
 
@@ -38,7 +38,7 @@
 
 <br>
 
-**Automatically discovers and redeems Lords Rush gift codes • Manages your alliance roster**
+**Automatically discovers and redeems Lord Rush gift codes • Manages your alliance roster**
 **Kingdom-aware redemption • No captcha, no login step • Works on Telegram and Discord**
 
 <br>
@@ -61,7 +61,7 @@
 
 ## 🤝 Contributing — Volunteers Wanted!
 
-We keep the bot's Lords Rush gift-code coverage and translations fresh with help from the community. **Two easy ways to help — and you'll be credited!**
+We keep the bot's Lord Rush gift-code coverage and translations fresh with help from the community. **Two easy ways to help — and you'll be credited!**
 
 <div align="center">
 
@@ -77,7 +77,7 @@ We keep the bot's Lords Rush gift-code coverage and translations fresh with help
 </div>
 
 > 🎯 **How to help:**
-> - 🎁 **Report new gift codes** — spot a fresh Lords Rush code before the bot does? Send it in and we'll add it for everyone.
+> - 🎁 **Report new gift codes** — spot a fresh Lord Rush code before the bot does? Send it in and we'll add it for everyone.
 > - 🌐 **Add or improve a translation** — help translate the bot into your language (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 >
 > **Contact us directly:**
@@ -86,7 +86,7 @@ We keep the bot's Lords Rush gift-code coverage and translations fresh with help
 
 ### ✅ Current Contributors
 
-> *Be the first — get your name seen by thousands of Lords Rush players!*
+> *Be the first — get your name seen by thousands of Lord Rush players!*
 > <!-- Contributors list is updated manually -->
 
 ---
@@ -95,7 +95,7 @@ We keep the bot's Lords Rush gift-code coverage and translations fresh with help
 
 > **Released:** 2026-07-24
 
-  - **Lords Rush Support**: Full gift-code + alliance management for **Lords Rush**, live 24/7 on Telegram and Discord
+  - **Lord Rush Support**: Full gift-code + alliance management for **Lord Rush**, live 24/7 on Telegram and Discord
   - **Automatic Gift Code Redemption**: Codes are discovered, validated, and redeemed for every member automatically — a single signed request per account, kingdom-aware, with no captcha and no login step
   - **`/register [FID]`**: Members register with their Fighter ID; registration collects your kingdom number so codes always reach the right account
   - **Leaderboard & 5 Languages**: `/leaderboard` rankings plus full localization in English, 日本語, 한국어, Русский, and Türkçe
@@ -105,7 +105,7 @@ We keep the bot's Lords Rush gift-code coverage and translations fresh with help
 ---
 
 ## 🎯 What Is This?
-**Lords Rush Bot** is a fully automated, production-grade management bot designed specifically for **Lords Rush** (Century Games) alliance leaders and members. It runs **24/7 on a dedicated server**, monitoring for new gift codes and redeeming them instantly for every registered member in your alliance.
+**Lord Rush Bot** is a fully automated, production-grade management bot designed specifically for **Lord Rush** (Century Games) alliance leaders and members. It runs **24/7 on a dedicated server**, monitoring for new gift codes and redeeming them instantly for every registered member in your alliance.
 
 The bot operates on both **Telegram** and **Discord** simultaneously, with a shared database ensuring full cross-platform synchronization. Everything from gift code redemption to member management is completely automated — no manual intervention required.
 
@@ -115,7 +115,7 @@ The bot operates on both **Telegram** and **Discord** simultaneously, with a sha
 
 ## 🌐 WOS Control Website
 
-> **Everything in one place** — the bot has a full web platform at **[woscontrol.com](https://woscontrol.com)**, which now supports Lords Rush.
+> **Everything in one place** — the bot has a full web platform at **[woscontrol.com](https://woscontrol.com)**, which now supports Lord Rush.
 
 <div align="center">
 
@@ -139,7 +139,7 @@ The bot operates on both **Telegram** and **Discord** simultaneously, with a sha
 
 </div>
 
-> 📷 Screenshots are being refreshed for Lords Rush — the operator will update these shortly.
+> 📷 Screenshots are being refreshed for Lord Rush — the operator will update these shortly.
 
 ---
 
@@ -147,7 +147,7 @@ The bot operates on both **Telegram** and **Discord** simultaneously, with a sha
 
 ### 🎁 Automatic Gift Code Redemption
 - **Automatic scanning** for new codes every **5 minutes**
-- **Instant validation** against the official Lords Rush gift-code API
+- **Instant validation** against the official Lord Rush gift-code API
 - **Single signed request** — one `POST /gift_code` per account, **no captcha, no login step**
 - **Kingdom-aware** — every redemption sends your kingdom id (`kid`) so codes land on the right account
 - **Batch redemption** for all alliance members with **hundreds of concurrent requests** per batch
@@ -157,7 +157,7 @@ The bot operates on both **Telegram** and **Discord** simultaneously, with a sha
 
 ### 👥 Alliance Member Management
 - **Quick registration** — members type `/register [FID]` and set their kingdom, and they're in
-- **Kingdom collection** — because Lords Rush redeems per kingdom, registration asks for your kingdom number up front
+- **Kingdom collection** — because Lord Rush redeems per kingdom, registration asks for your kingdom number up front
 - **Admin add/remove** — manage the roster with `/addmember` and `/removemember`
 - **Member export** — export your full member list as a file
 
@@ -325,7 +325,7 @@ Contact us for a **free trial** with full access to all features:
 
 ## 🎁 Get Gift Codes — No Bot Required
 
-Don't have the bot set up yet? You can still get **Lords Rush gift codes** redeemed for your account instantly.
+Don't have the bot set up yet? You can still get **Lord Rush gift codes** redeemed for your account instantly.
 
 <div align="center">
 
@@ -346,9 +346,9 @@ Don't have the bot set up yet? You can still get **Lords Rush gift codes** redee
 ## 📖 Guides
 
 ### How to Find Your FID
-Your **FID (Fighter ID)** is your unique player identifier in Lords Rush.
+Your **FID (Fighter ID)** is your unique player identifier in Lord Rush.
 
-1. Open **Lords Rush**
+1. Open **Lord Rush**
 2. Tap your **avatar / profile** in the top-left corner
 3. Your **FID** is displayed on your player info screen
 
@@ -365,7 +365,7 @@ Your **FID (Fighter ID)** is your unique player identifier in Lords Rush.
 | **Discord API** | discord.py v2.x | Slash commands, embeds, views |
 | **Database** | PostgreSQL 15+ | Connection pooling, composite keys |
 | **HTTP Client** | aiohttp | Async API calls, session management |
-| **CAPTCHA Solver** | ONNX Runtime (local) | Platform capability — **not needed for Lords Rush** (redeem is a single signed call, no captcha) |
+| **CAPTCHA Solver** | ONNX Runtime (local) | Platform capability — **not needed for Lord Rush** (redeem is a single signed call, no captcha) |
 | **Proxy** | Residential rotating proxies | Rate limit avoidance |
 | **Hosting** | Dedicated Server | 24/7 uptime, Windows Server |
 | **Payments** | Stripe (optional) | Subscription management |
@@ -405,9 +405,9 @@ Language files are in the [`locales/`](locales/) directory.
 
 ## ❓ FAQ
 <details>
-<summary><b>How do I find my Lords Rush player ID (FID)?</b></summary>
+<summary><b>How do I find my Lord Rush player ID (FID)?</b></summary>
 
-Open Lords Rush → Tap your avatar / profile (top-left corner) → Your FID is displayed on your player info screen. It's a number like `123456789`. When you register, you'll also be asked for your **kingdom number**, since codes are redeemed per kingdom.
+Open Lord Rush → Tap your avatar / profile (top-left corner) → Your FID is displayed on your player info screen. It's a number like `123456789`. When you register, you'll also be asked for your **kingdom number**, since codes are redeemed per kingdom.
 </details>
 
 <details>
@@ -425,7 +425,7 @@ Every **5 minutes**. When a new code is discovered, it is validated and redeemed
 <details>
 <summary><b>Why does the bot need my kingdom number?</b></summary>
 
-Lords Rush redeems gift codes **per kingdom** — the redemption request must include your kingdom id (`kid`). Providing your kingdom at registration guarantees every code lands on the correct account.
+Lord Rush redeems gift codes **per kingdom** — the redemption request must include your kingdom id (`kid`). Providing your kingdom at registration guarantees every code lands on the correct account.
 </details>
 
 <details>
@@ -481,8 +481,8 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 <br>
 
-**Lords Rush** · **Lords Rush Bot** · **Gift Code Bot** · **Alliance Management** · **Auto Redeem**
-**Telegram Bot** · **Discord Bot** · **Free Gift Codes** · **Lords Rush Helper** · **Century Games**
+**Lord Rush** · **Lord Rush Bot** · **Gift Code Bot** · **Alliance Management** · **Auto Redeem**
+**Telegram Bot** · **Discord Bot** · **Free Gift Codes** · **Lord Rush Helper** · **Century Games**
 
 </div>
 
@@ -491,7 +491,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## API Transparency
 
-We continuously datamine **Lords Rush**'s official gift-code client and publish its API surface in the open — every endpoint, the request parameters, and the signature **scheme** (the signing key is published too), plus each change over time. The scan is strictly read-only: it observes the game's public web client and never modifies the API or our redemption keys.
+We continuously datamine **Lord Rush**'s official gift-code client and publish its API surface in the open — every endpoint, the request parameters, and the signature **scheme** (the signing key is published too), plus each change over time. The scan is strictly read-only: it observes the game's public web client and never modifies the API or our redemption keys.
 
 ![endpoints 4](https://img.shields.io/badge/endpoints-4-57606a?style=flat-square)
 ![live 2](https://img.shields.io/badge/live-2-2ea44f?style=flat-square)

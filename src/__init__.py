@@ -1,2 +1,2 @@
-"""Lords Rush Bot v1.0.0"""
+"""Lord Rush Bot v1.0.0"""
 __version__ = "1.0.0"

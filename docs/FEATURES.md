@@ -1,15 +1,15 @@
 ---
-title: Lords Rush Bot Features - Gift Code Redemption, Alliance Management
-description: Complete feature documentation for Lords Rush Bot including automatic gift code redemption, kingdom-aware signed requests, alliance member management, leaderboard, and multi-language support
+title: Lord Rush Bot Features - Gift Code Redemption, Alliance Management
+description: Complete feature documentation for Lord Rush Bot including automatic gift code redemption, kingdom-aware signed requests, alliance member management, leaderboard, and multi-language support
 keywords: lords rush bot features, lords rush gift code bot, automatic gift code redemption, lords rush alliance management, kingdom, telegram bot, discord bot, century games bot, lords rush coupon bot
 ---
 
-# ⚔️ Lords Rush Bot — Feature Details
+# ⚔️ Lord Rush Bot — Feature Details
 
 ## 🎁 Gift Code System
 
 ### How Auto-Discovery Works
-1. The bot scans for new **Lords Rush** gift codes every **5 minutes**
+1. The bot scans for new **Lord Rush** gift codes every **5 minutes**
 2. New codes are stored in PostgreSQL with `pending` status
 3. Each code is validated against the official gift-code API
 4. Codes are automatically redeemed for **every registered member**
@@ -20,8 +20,8 @@ keywords: lords rush bot features, lords rush gift code bot, automatic gift code
 Discovered → Pending → Validated → Auto-Used → Expired/Invalid
 ```
 
-### Lords Rush Redemption API
-The bot uses Century Games' official gift-code API for Lords Rush:
+### Lord Rush Redemption API
+The bot uses Century Games' official gift-code API for Lord Rush:
 - **Single signed request** — one `POST /gift_code` per account (`sign, fid, cdk, kid, time`)
 - **Signature scheme** — `sign = md5(sorted params + a per-game secret key)`, timestamp in unix **seconds**
 - **Kingdom-aware** — `kid` (kingdom id) is **required** on every redemption
@@ -39,7 +39,7 @@ The bot uses Century Games' official gift-code API for Lords Rush:
 ## 👥 Member Management
 
 ### Registration
-Because Lords Rush redeems codes **per kingdom** and exposes **no player-info endpoint**, registration collects the two things the redeemer needs:
+Because Lord Rush redeems codes **per kingdom** and exposes **no player-info endpoint**, registration collects the two things the redeemer needs:
 1. **FID** — the player's Fighter ID
 2. **Kingdom** — the kingdom number (`kid`) the codes should be redeemed against
 
@@ -54,7 +54,7 @@ Because Lords Rush redeems codes **per kingdom** and exposes **no player-info en
 | **Kingdom** | The kingdom id (`kid`) required by the redeem call |
 | **Alliance** | The alliance the member belongs to in the bot |
 
-> ℹ️ Lords Rush has no public player-info API (the `/player` route returns 404), so the bot does not fetch or track in-game nickname changes for this game — it stores the FID and kingdom you provide and redeems against them.
+> ℹ️ Lord Rush has no public player-info API (the `/player` route returns 404), so the bot does not fetch or track in-game nickname changes for this game — it stores the FID and kingdom you provide and redeems against them.
 
 ---
 

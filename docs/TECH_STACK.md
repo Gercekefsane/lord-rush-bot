@@ -1,16 +1,16 @@
 ---
-title: Lords Rush Bot Technical Architecture - Python, PostgreSQL, Telegram, Discord
-description: Technical documentation for Lords Rush Bot covering system architecture, tech stack, signed gift-code redemption, database schema, and API integration
+title: Lord Rush Bot Technical Architecture - Python, PostgreSQL, Telegram, Discord
+description: Technical documentation for Lord Rush Bot covering system architecture, tech stack, signed gift-code redemption, database schema, and API integration
 keywords: lords rush bot architecture, python telegram bot, discord bot, postgresql, async python, lords rush api, century games bot, lords rush gift code api
 ---
 
-# ⚔️ Lords Rush Bot — Technical Architecture
+# ⚔️ Lord Rush Bot — Technical Architecture
 
 ## System Overview
 
 ```
 ┌───────────────────────────────────────────────────────────────┐
-│                    Lords Rush Bot Server                      │
+│                    Lord Rush Bot Server                      │
 │                                                               │
 │  ┌─────────────┐  ┌──────────────┐  ┌──────────────────────┐ │
 │  │  Telegram    │  │   Discord    │  │   Background Tasks   │ │
@@ -30,10 +30,10 @@ keywords: lords rush bot architecture, python telegram bot, discord bot, postgre
 └───────────────────────────────────────────────────────────────┘
 ```
 
-## Lords Rush-Specific Architecture
+## Lord Rush-Specific Architecture
 
 ### Gift Code Redemption
-Lords Rush redeems in a **single signed call** — there is no player-login step and no captcha.
+Lord Rush redeems in a **single signed call** — there is no player-login step and no captcha.
 
 | Property | Value |
 |----------|-------|
@@ -48,7 +48,7 @@ Lords Rush redeems in a **single signed call** — there is no player-login step
 The signing key is Century Games' own **per-game key**, published here in the open — transparency is the whole point. See [API_ENDPOINTS.md](../API_ENDPOINTS.md) for the live surface and error codes.
 
 ### API Integration
-The bot communicates with Century Games' official Lords Rush APIs:
+The bot communicates with Century Games' official Lord Rush APIs:
 
 | Function | Description |
 |----------|------------|
@@ -56,7 +56,7 @@ The bot communicates with Century Games' official Lords Rush APIs:
 | Banner / Config | Read gift-code banners via `/gift_code_config` |
 | Request Signing | MD5-based signature over sorted params + secret key |
 
-> ℹ️ Lords Rush exposes **no** player-info endpoint — `POST /api/player` and `POST /api/captcha` return 404 (removed by Century Games). The bot therefore redeems against the FID + kingdom supplied at registration, without a separate lookup.
+> ℹ️ Lord Rush exposes **no** player-info endpoint — `POST /api/player` and `POST /api/captcha` return 404 (removed by Century Games). The bot therefore redeems against the FID + kingdom supplied at registration, without a separate lookup.
 
 ## Core Technologies
 
@@ -114,7 +114,7 @@ lords-rush-bot/
 ## Key Design Decisions
 
 ### Game-Type Aware Database
-Every table includes a `game_type` column (`'lr'` for Lords Rush):
+Every table includes a `game_type` column (`'lr'` for Lord Rush):
 - Single database serves multiple games on the same platform
 - Composite primary keys prevent FID collisions across games
 - Queries are always scoped by `game_type`
@@ -136,9 +136,9 @@ Both Telegram and Discord bots run in the same Python process:
 
 | API | Purpose | Auth | Status |
 |-----|---------|------|--------|
-| Lords Rush Gift Code API (`/gift_code`) | Redemption | Sign + FID + kid | ✅ live |
-| Lords Rush Config API (`/gift_code_config`) | Banners | — | ✅ live |
-| Lords Rush Player API (`/player`) | Player info | — | ❌ removed (404) |
-| Lords Rush Captcha API (`/captcha`) | Captcha | — | ❌ removed (404) |
+| Lord Rush Gift Code API (`/gift_code`) | Redemption | Sign + FID + kid | ✅ live |
+| Lord Rush Config API (`/gift_code_config`) | Banners | — | ✅ live |
+| Lord Rush Player API (`/player`) | Player info | — | ❌ removed (404) |
+| Lord Rush Captcha API (`/captcha`) | Captcha | — | ❌ removed (404) |
 
-> The platform also ships a local ONNX captcha solver used by other Century Games titles; **Lords Rush redemption needs no captcha**, so it is not used for this game.
+> The platform also ships a local ONNX captcha solver used by other Century Games titles; **Lord Rush redemption needs no captcha**, so it is not used for this game.

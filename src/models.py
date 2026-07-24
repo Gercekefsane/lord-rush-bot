@@ -1,4 +1,4 @@
-"""Data models and constants for Lords Rush Bot"""
+"""Data models and constants for Lord Rush Bot"""
 
 import hashlib
 import time
@@ -13,7 +13,7 @@ from typing import Optional
 
 GAME_LR = 'lr'
 GAME_CHOICES = [GAME_LR]
-GAME_NAMES = {GAME_LR: 'Lords Rush'}
+GAME_NAMES = {GAME_LR: 'Lord Rush'}
 GAME_ICONS = {GAME_LR: '⚔️'}
 
 
@@ -42,7 +42,7 @@ class RedemptionResult(Enum):
 class PlayerInfo:
     """Registration record for a player.
 
-    Lords Rush exposes no player-info API (the `/player` route returns 404),
+    Lord Rush exposes no player-info API (the `/player` route returns 404),
     so the bot stores the FID + kingdom supplied at registration and redeems
     against them. `kid` (kingdom id) is required by the redeem call.
     """
@@ -116,7 +116,7 @@ def generate_sign(params: str, encrypt_key: str) -> str:
 
 
 def build_giftcode_request(fid: int, cdk: str, kid: int, encrypt_key: str) -> str:
-    """Build a signed request body for Lords Rush gift-code redemption.
+    """Build a signed request body for Lord Rush gift-code redemption.
 
     Signature scheme (Century Games'): the request params in ALPHABETICAL
     order (cdk, fid, kid, time), joined with '&', followed by a per-game

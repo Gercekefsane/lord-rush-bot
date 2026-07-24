@@ -4,7 +4,7 @@
 
 ### 🌐 [woscontrol.com](https://woscontrol.com)
 
-**Kendi markalı Lords Rush botunuzu çalıştırın — SİZİN adınız, SİZİN avatarınız, SİZİN kimliğiniz.**
+**Kendi markalı Lord Rush botunuzu çalıştırın — SİZİN adınız, SİZİN avatarınız, SİZİN kimliğiniz.**
 
 </div>
 
@@ -16,7 +16,7 @@ WhiteLabel, kendi Discord ve Telegram bot tokenlarınızı kullanarak **tamamen 
 
 | Özellik | Standart Bot | WhiteLabel Bot |
 |---------|-------------|----------------|
-| Bot Adı | Lords Rush Bot | **Özel adınız** |
+| Bot Adı | Lord Rush Bot | **Özel adınız** |
 | Bot Avatarı | Varsayılan logo | **Özel avatarınız** |
 | Karşılama Mesajı | Varsayılan | **Tamamen özelleştirilebilir** |
 | Marka | woscontrol.com | **İttifak markanız** |
@@ -28,7 +28,7 @@ WhiteLabel, kendi Discord ve Telegram bot tokenlarınızı kullanarak **tamamen 
 ## ✨ Neler Dahil?
 
 ### 🎮 Tüm Oyun Özellikleri
-- **Otomatik Hediye Kodu Kullanımı** — Lords Rush kodlarını otomatik bulur ve tüm üyeler için kullanır
+- **Otomatik Hediye Kodu Kullanımı** — Lord Rush kodlarını otomatik bulur ve tüm üyeler için kullanır
 - **Krallık Bazlı Kullanım** — Her kod doğru krallığa (`kid`) uygulanır; captcha yok, giriş adımı yok
 - **İttifak Yönetimi** — Kolayca üye ekle, çıkar, takip et
 - **Liderlik Tablosu** — Kullanılan kod ve etkinliğe göre ittifak ve üye sıralaması

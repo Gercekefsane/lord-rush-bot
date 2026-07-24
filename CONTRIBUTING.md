@@ -1,12 +1,12 @@
 ---
-title: Contributing to Lords Rush Bot - Add New Languages
-description: Guide for developers and translators to contribute new language translations to the Lords Rush Bot
+title: Contributing to Lord Rush Bot - Add New Languages
+description: Guide for developers and translators to contribute new language translations to the Lord Rush Bot
 keywords: lords rush bot translation, add language, contribute, localization, i18n, telegram bot translation, discord bot translation, century games
 ---
 
 # 🌐 Contributing — Add a New Language
 
-Thank you for your interest in contributing to the Lords Rush Bot! One of the easiest and most impactful ways to contribute is by **adding a new language translation**.
+Thank you for your interest in contributing to the Lord Rush Bot! One of the easiest and most impactful ways to contribute is by **adding a new language translation**.
 
 The bot currently supports:
 
@@ -62,7 +62,7 @@ Open `locales/XX.json` and translate **every value** (right side of `:`) while k
   "name": "Español",
   "flag": "🇪🇸",
   
-  "welcome_title": "🎮 <b>Lords Rush Bot</b>",
+  "welcome_title": "🎮 <b>Lord Rush Bot</b>",
   "hello": "Hola",
   "bot_added_group": "Bot ha sido añadido a este grupo. 👋",
   "group_info": "📋 Información del grupo:",
@@ -191,4 +191,4 @@ Need help with your translation or have questions about context?
 
 ---
 
-**Keywords**: Lords Rush translation, add language, contribute, localization, i18n, multilingual bot, telegram bot translation, discord bot translation, open source contribution, Century Games
+**Keywords**: Lord Rush translation, add language, contribute, localization, i18n, multilingual bot, telegram bot translation, discord bot translation, open source contribution, Century Games
