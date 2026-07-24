@@ -28,6 +28,6 @@ An **append-only** record of every change we observe in Lords Rush's gift-code A
 > [!NOTE]
 > Payload changes are detected against a **per-bundle key set**, not per endpoint: minification hides which key belongs to which endpoint, so a payload delta reflects the whole chunk. Backend removals are recorded even though the affected paths may remain **referenced by the frontend** — that gap is exactly what this log exists to make visible.
 
-See the current surface and signature scheme (signing key withheld) in **[API_ENDPOINTS.md](API_ENDPOINTS.md)**.
+See the current surface and signature scheme (signing key included) in **[API_ENDPOINTS.md](API_ENDPOINTS.md)**.
 
 <sub>Datamined from Century Games' public gift-code client · Lords Rush · read-only, append-only.</sub>

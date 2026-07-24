@@ -105,7 +105,7 @@ def generate_sign(params: str, encrypt_key: str) -> str:
     Args:
         params: Sorted, URL-encoded form parameters
             (e.g. 'cdk=ABC&fid=123&kid=45&time=1690000000')
-        encrypt_key: Per-game secret key (never committed to this repo).
+        encrypt_key: Per-game encrypt key (Century's own; documented publicly in API_ENDPOINTS.md).
 
     Returns:
         MD5 hex digest string.

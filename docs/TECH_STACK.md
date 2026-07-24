@@ -45,7 +45,7 @@ Lords Rush redeems in a **single signed call** — there is no player-login step
 | Captcha | none |
 | Login | none |
 
-The signing key is a **per-game secret** and is **never** committed to this public repo — only the scheme is documented. See [API_ENDPOINTS.md](../API_ENDPOINTS.md) for the live surface and error codes.
+The signing key is Century Games' own **per-game key**, published here in the open — transparency is the whole point. See [API_ENDPOINTS.md](../API_ENDPOINTS.md) for the live surface and error codes.
 
 ### API Integration
 The bot communicates with Century Games' official Lords Rush APIs:

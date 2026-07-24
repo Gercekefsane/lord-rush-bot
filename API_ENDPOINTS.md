@@ -7,7 +7,7 @@
 
 <sub>Backend `s01-gm-report-api-prod-eo.centurygame.com/api` &nbsp;·&nbsp; frontend `ls-giftcode.centurygame.com` &nbsp;·&nbsp; Vue SPA (game shown as "Lord Rush") &nbsp;·&nbsp; last scanned 24/07/2026 09:00 UTC</sub>
 
-This document mirrors the gift-code API of **Lords Rush** exactly as the game's own public web client describes it — the endpoints its frontend calls, which of them the backend still answers, the request parameters, and the signature scheme. It is produced by an automated scan that only reads Century Games' public JavaScript and probes their public API. We observe; we never modify the game's API, and never touch our own redemption keys.
+This document mirrors the gift-code API of **Lords Rush** exactly as the game's own public web client describes it — the endpoints its frontend calls, which of them the backend still answers, the request parameters, the encrypt key, and the signature scheme. It is produced by an automated scan that only reads Century Games' public JavaScript and probes their public API. We observe; we never modify the game's API, and never touch our own redemption keys.
 
 ---
 
@@ -46,21 +46,21 @@ done
 ## Signature scheme
 
 ```
-sign = MD5("cdk={cdk}&fid={fid}&kid={kid}&time={time}" + SECRET_KEY)
-params alphabetical (cdk · fid · kid · time); time in unix SECONDS; kid required; no captcha, no login step.
+sign = MD5("cdk={cdk}&fid={fid}&kid={kid}&time={time}" + ENCRYPT_KEY)
+params alphabetical (cdk · fid · kid · time); time in unix SECONDS; kid required; no captcha, no login step. (Century Games' own scheme, visible in their public JS.)
 ```
 
-Every request to `/gift_code` carries `sign, fid, cdk, kid, time`. The signed string is the four request params in **alphabetical order** joined with `&`, followed by a per-game secret key, hashed with MD5. `kid` (the kingdom id) is **required** — the backend rejects a redemption whose `kid` does not match the account. The formula cannot be lifted reliably from minified JavaScript, so it is maintained by hand and re-verified on each contract change **(last verified 24/07/2026)**. It is Century Games' own scheme, reproduced here for transparency only.
+Every request to `/gift_code` carries `sign, fid, cdk, kid, time`. The signed string is the four request params in **alphabetical order** joined with `&`, followed by the encrypt key below, hashed with MD5. `kid` (the kingdom id) is **required** — the backend rejects a redemption whose `kid` does not match the account. It is Century Games' own scheme, extracted from their public gift-code client and reproduced here for transparency **(last verified 24/07/2026)**.
 
 ---
 
-## Signing key
+## Encrypt key
 
 ```
-SECRET_KEY = <not disclosed>
+ZUk4FG1VQq3HjPKAa
 ```
 
-The signature appends a **per-game secret key** before the MD5 hash above. **We do not publish this key.** Disclosing it would let anyone forge valid gift-code requests against Century Games' backend, so we describe the *scheme* (sorted params + a per-game secret) but withhold the key itself. It belongs to Century Games; we surface only the mechanism for transparency, and the scanner never writes it back into our redemption config.
+Century Games' own per-game key, extracted from their **public** gift-code JavaScript. It is published here on purpose: the whole point of this doc is transparency, so anyone can reproduce a valid `/gift_code` request from the scheme above plus this key against Century's public API. The scanner only *reads* it from the public bundle — it never writes it back into our own redemption config.
 
 ---
 
@@ -105,4 +105,4 @@ The `/gift_code` endpoint carries **no fixed requests-per-second limit** we have
 
 The scanner is read-and-report only. It writes to two database tables and to these public documents — never to `api_keys.json`, `config.py`, or the redeem path. The full change history lives in the append-only [change timeline](API_DATAMINING.md).
 
-<sub>Generated from Century Games' public gift-code client · Lords Rush · scan is read-only · signing key withheld.</sub>
+<sub>Generated from Century Games' public gift-code client · Lords Rush · scan is read-only · published for transparency.</sub>

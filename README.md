@@ -491,7 +491,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## API Transparency
 
-We continuously datamine **Lords Rush**'s official gift-code client and publish its API surface in the open — every endpoint, the request parameters, and the signature **scheme** (the signing key itself is withheld), plus each change over time. The scan is strictly read-only: it observes the game's public web client and never modifies the API or our redemption keys.
+We continuously datamine **Lords Rush**'s official gift-code client and publish its API surface in the open — every endpoint, the request parameters, and the signature **scheme** (the signing key is published too), plus each change over time. The scan is strictly read-only: it observes the game's public web client and never modifies the API or our redemption keys.
 
 ![endpoints 4](https://img.shields.io/badge/endpoints-4-57606a?style=flat-square)
 ![live 2](https://img.shields.io/badge/live-2-2ea44f?style=flat-square)
@@ -500,7 +500,7 @@ We continuously datamine **Lords Rush**'s official gift-code client and publish 
 
 <sub>Baseline mapped 24/07/2026 — redemption is a single signed `POST /gift_code`, kingdom-aware, no captcha; `/player` and `/captcha` answer 404 (removed by Century Games, mirroring their other titles).</sub>
 
-- **[Live API surface →](API_ENDPOINTS.md)** — current endpoints, backend status, payload keys, signature scheme (key withheld)
+- **[Live API surface →](API_ENDPOINTS.md)** — current endpoints, backend status, payload keys, signature scheme (key included)
 - **[Change timeline →](API_DATAMINING.md)** — append-only history of every observed change
 
 <sub>Payload keys are reported as a per-bundle set — minification hides which key belongs to which endpoint.</sub>
