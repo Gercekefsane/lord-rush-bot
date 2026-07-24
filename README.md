@@ -26,15 +26,15 @@
 
 <br>
 
-[![Version](https://img.shields.io/badge/version-v1.0.0-brightgreen?style=flat-square)]()
-[![Changelog](https://img.shields.io/badge/changelog-v1.0.0-blue?style=flat-square)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-v5.0.0-brightgreen?style=flat-square)]()
+[![Changelog](https://img.shields.io/badge/changelog-v5.0.0-blue?style=flat-square)](CHANGELOG.md)
 [![Python](https://img.shields.io/badge/Python-3.13+-3776AB?style=flat-square&logo=python&logoColor=white)]()
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-4169E1?style=flat-square&logo=postgresql&logoColor=white)]()
 [![Platform](https://img.shields.io/badge/Platform-Telegram%20%2B%20Discord-blue?style=flat-square)]()
 [![Languages](https://img.shields.io/badge/Languages-EN%20%7C%20JA%20%7C%20KO%20%7C%20RU%20%7C%20TR-orange?style=flat-square)](locales/)
 [![Uptime](https://img.shields.io/badge/Uptime-24%2F7-brightgreen?style=flat-square)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/Gercekefsane/lords-rush-bot?style=flat-square)]()
+[![Stars](https://img.shields.io/github/stars/Gercekefsane/lord-rush-bot?style=flat-square)]()
 
 <br>
 
@@ -55,7 +55,7 @@
 >
 > ⭐ **Star this repo** to show your interest and help us reach the goal!
 >
-> Current progress: ![GitHub stars](https://img.shields.io/github/stars/Gercekefsane/lords-rush-bot?style=social)
+> Current progress: ![GitHub stars](https://img.shields.io/github/stars/Gercekefsane/lord-rush-bot?style=social)
 
 ---
 
@@ -91,7 +91,7 @@ We keep the bot's Lord Rush gift-code coverage and translations fresh with help 
 
 ---
 
-## 🔢 Latest Version: v1.0.0
+## 🔢 Latest Version: v5.0.0
 
 > **Released:** 2026-07-24
 
@@ -470,7 +470,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 <br><br>
 
-**v1.0.0** · Last updated: 2026-07-24
+**v5.0.0** · Last updated: 2026-07-24
 
 <br>
 

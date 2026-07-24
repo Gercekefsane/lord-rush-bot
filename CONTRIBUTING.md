@@ -25,8 +25,8 @@ The bot currently supports:
 ### Step 1: Fork & Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/lords-rush-bot.git
-cd lords-rush-bot
+git clone https://github.com/YOUR_USERNAME/lord-rush-bot.git
+cd lord-rush-bot
 ```
 
 ### Step 2: Copy the English Base

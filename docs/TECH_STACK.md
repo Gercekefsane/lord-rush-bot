@@ -89,7 +89,7 @@ The bot communicates with Century Games' official Lord Rush APIs:
 ## Module Architecture
 
 ```
-lords-rush-bot/
+lord-rush-bot/
 ├── bot.py                  # Main entry, handlers, dual-bot startup
 ├── config.py               # API hosts, tokens, secrets (not committed)
 ├── shared_state.py         # Cross-module bot references

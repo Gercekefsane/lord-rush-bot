@@ -2,7 +2,7 @@
 
 All notable changes to this project are documented here.
 
-## v1.0.0 — 2026-07-24
+## v5.0.0 — 2026-07-24
 
 ### ✨ Added
 - **Lord Rush Support**: Full support for **Lord Rush** (Century Games) added to the bot platform, running 24/7 on both Telegram and Discord with a shared database
