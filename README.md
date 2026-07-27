@@ -2,7 +2,7 @@
 
 <a href="https://woscontrol.com">
 <h1>🌐 woscontrol.com</h1>
-<h3>Multi-Game Gift Code & Alliance Bot Platform</h3>
+<h3>Whiteout Survival & Kingshot Bot Platform</h3>
 </a>
 
 <br>
@@ -13,9 +13,9 @@
 
 <br><br>
 
-# ⚔️ Lord Rush Bot
+# 👑 Kingshot Bot
 
-### The Ultimate Gift Code & Alliance Management Bot for Lord Rush
+### The Ultimate Gift Code & Alliance Management Bot for Kingshot
 
 <br>
 
@@ -38,12 +38,12 @@
 
 <br>
 
-**Automatically discovers and redeems Lord Rush gift codes • Manages your alliance roster**
-**Kingdom-aware redemption • No captcha, no login step • Works on Telegram and Discord**
+**Automatically discovers and redeems gift codes • Tracks alliance members in real-time**
+**Sends furnace, nickname & state change notifications • Works on Telegram and Discord**
 
 <br>
 
-[🌐 Website](#-wos-control-website) · [✨ Features](#-features) · [⚙️ How It Works](#%EF%B8%8F-how-it-works) · [📋 Commands](#-commands) · [🏆 Leaderboard](#-leaderboard) · [🚀 Get Started](#-get-started) · [🎁 Free Codes](#-get-gift-codes--no-bot-required) · [🤝 Contribute](#-contributing--volunteers-wanted) · [📋 Changelog](CHANGELOG.md) · [❓ FAQ](#-faq)
+[🌐 Website](#-wos-control-website) · [✨ Features](#-features) · [⚙️ How It Works](#%EF%B8%8F-how-it-works) · [📋 Commands](#-commands) · [🔄 Transfer](#-kingdom-transfer-system) · [🤪 Crazy Joe](#-crazy-joe-event-guide) · [🚀 Get Started](#-get-started) · [🎁 Free Codes](#-get-gift-codes--no-bot-required) · [🤝 Contribute](#-contributing--volunteers-wanted) · [📋 Changelog](CHANGELOG.md) · [❓ FAQ](#-faq)
 
 ---
 
@@ -59,9 +59,9 @@
 
 ---
 
-## 🤝 Contributing — Volunteers Wanted!
+## 🤝 Contribute — Help Us Keep Transfer Dates Accurate!
 
-We keep the bot's Lord Rush gift-code coverage and translations fresh with help from the community. **Two easy ways to help — and you'll be credited!**
+We need volunteers to report **kingdom transfer dates** for their states. Know your state's schedule? **You'll be rewarded!**
 
 <div align="center">
 
@@ -69,53 +69,50 @@ We keep the bot's Lord Rush gift-code coverage and translations fresh with help 
 
 | Reward | Details |
 |--------|---------|
-| 🏆 **Permanent Credit** | Your name is listed as an official contributor |
-| 📣 **Bot Recognition** | Credited in the bot's live responses and release notes |
+| 🏆 **Permanent Credit** | Your name appears in **every `/transfer` message** for your state — seen by thousands of players |
+| 📣 **Bot Recognition** | Credited as an official contributor in the bot's live responses |
 | ⭐ **GitHub Credit** | Listed as a contributor in this repo |
 | ❤️ **Community Fame** | Your name lives on in every alliance that uses the bot |
 
 </div>
 
-> 🎯 **How to help:**
-> - 🎁 **Report new gift codes** — spot a fresh Lord Rush code before the bot does? Send it in and we'll add it for everyone.
-> - 🌐 **Add or improve a translation** — help translate the bot into your language (see [CONTRIBUTING.md](CONTRIBUTING.md)).
+> � **Contact us directly** — send your state number, generation, FC level & transfer dates:
 >
-> **Contact us directly:**
 > - **Telegram:** [@btuncsiper](https://t.me/btuncsiper)
 > - **Discord:** [@hasmetli](https://discord.com/users/hasmetli)
 
 ### ✅ Current Contributors
 
-> *Be the first — get your name seen by thousands of Lord Rush players!*
+> *Be the first — get your name seen by thousands of Kingshot players!*
 > <!-- Contributors list is updated manually -->
 
 ---
 
 ## 🔢 Latest Version: v5.0.0
 
-> **Released:** 2026-07-24
+> **Released:** 2026-07-23
 
-  - **Lord Rush Support**: Full gift-code + alliance management for **Lord Rush**, live 24/7 on Telegram and Discord
-  - **Automatic Gift Code Redemption**: Codes are discovered, validated, and redeemed for every member automatically — a single signed request per account, kingdom-aware, with no captcha and no login step
-  - **`/register [FID]`**: Members register with their Fighter ID; registration collects your kingdom number so codes always reach the right account
-  - **Leaderboard & 5 Languages**: `/leaderboard` rankings plus full localization in English, 日本語, 한국어, Русский, and Türkçe
+  - **WosControl AI Assistant**: Ask the bot anything right inside your alliance's own Telegram or Discord — a conversational AI that answers hero, meta, transfer-window, leaderboard, roster, and live-player questions, with a dedicated channel set up automatically for every alliance
+  - **Website Chat Assistant**: The WOSCONTROL Assistant now answers live in the woscontrol.com community chat too — grounded in real bot data, showing a typing indicator while it thinks, and poppable to fullscreen from any page
+  - **AI Meta Advisor**: Share your profile and hero roster to get a personalized, meta-grounded report — hero tier lists, expert picks, and growth timelines, with a build plan written in your own language on exactly how to improve your account
+  - **Community Guides**: Upload a few screenshots and AI turns them into a structured, auto-translated strategy guide — with a premium author wizard to preview and edit before publishing, plus hero tier tabs, per-event hubs, and community voting and bookmarks
 
 > 📋 **[Full Changelog →](CHANGELOG.md)**
 
 ---
 
 ## 🎯 What Is This?
-**Lord Rush Bot** is a fully automated, production-grade management bot designed specifically for **Lord Rush** (Century Games) alliance leaders and members. It runs **24/7 on a dedicated server**, monitoring for new gift codes and redeeming them instantly for every registered member in your alliance.
+**Kingshot Bot** is a fully automated, production-grade management bot designed specifically for **Kingshot** alliance leaders and members. It runs **24/7 on a dedicated server**, monitoring official game channels for new gift codes and redeeming them instantly for every registered member in your alliance.
 
-The bot operates on both **Telegram** and **Discord** simultaneously, with a shared database ensuring full cross-platform synchronization. Everything from gift code redemption to member management is completely automated — no manual intervention required.
+The bot operates on both **Telegram** and **Discord** simultaneously, with a shared database ensuring full cross-platform synchronization. Everything from gift code redemption to member tracking is completely automated — no manual intervention required.
 
-> 💡 **No more missed gift codes.** The bot scans for new codes every **5 minutes**, validates them, and redeems them for your entire alliance automatically — in a single signed call per account.
+> 💡 **No more missed gift codes.** The bot scans official game sources every **5 minutes**, discovers new codes, validates them, and redeems them for your entire alliance automatically.
 
 ---
 
 ## 🌐 WOS Control Website
 
-> **Everything in one place** — the bot has a full web platform at **[woscontrol.com](https://woscontrol.com)**, which now supports Lord Rush.
+> **Everything in one place** — the bot has a full web platform at **[woscontrol.com](https://woscontrol.com)**
 
 <div align="center">
 
@@ -123,8 +120,10 @@ The bot operates on both **Telegram** and **Discord** simultaneously, with a sha
 |---------|------|-------------|
 | 🏠 **Home** | [woscontrol.com](https://woscontrol.com) | Overview, features & quick start |
 | 🎁 **Gift Codes** | [woscontrol.com/codes](https://woscontrol.com/codes) | Live code list — auto-updated every 5 min |
+| 🔍 **Player Lookup** | [woscontrol.com/player-search](https://woscontrol.com/player-search) | Search any player by FID or nickname |
+| 📺 **YouTubers** | [woscontrol.com/youtubers](https://woscontrol.com/youtubers) | Featured Kingshot content creators |
+| 📖 **Wiki** | [woscontrol.com/wiki](https://woscontrol.com/wiki) | Game guides, calculators & event info |
 | 🤝 **Recruitment** | [woscontrol.com/recruitment](https://woscontrol.com/recruitment) | Alliance recruitment board |
-| 🏆 **Leaderboard** | [woscontrol.com/leaderboard](https://woscontrol.com/leaderboard) | Alliance & member rankings |
 | 💬 **Live Chat** | [woscontrol.com/chat](https://woscontrol.com/chat) | Alliance live chat system |
 
 </div>
@@ -133,42 +132,71 @@ The bot operates on both **Telegram** and **Discord** simultaneously, with a sha
 
 <div align="center">
 
-<img src="images/registercommand.png" alt="Register command" width="48%"> &nbsp; <img src="images/giftcodeusing.png" alt="Gift code redemption" width="48%">
+<img src="images/forms.png" alt="Forms" width="48%"> &nbsp; <img src="images/giftcodeusing.png" alt="Giftcodeusing" width="48%">
 
-<img src="images/leaderboard.png" alt="Leaderboard" width="48%">
+<img src="images/googleformuser.png" alt="Googleformuser" width="48%"> &nbsp; <img src="images/leaderboard.png" alt="Leaderboard" width="48%">
+
+<img src="images/registercommand.png" alt="Registercommand" width="48%"> &nbsp; <img src="images/statechanges.png" alt="Statechanges" width="48%">
+
+<img src="images/statecommand.png" alt="Statecommand" width="48%">
 
 </div>
 
-> 📷 Screenshots are being refreshed for Lord Rush — the operator will update these shortly.
 
 ---
 
 ## ✨ Features
 
 ### 🎁 Automatic Gift Code Redemption
-- **Automatic scanning** for new codes every **5 minutes**
-- **Instant validation** against the official Lord Rush gift-code API
-- **Single signed request** — one `POST /gift_code` per account, **no captcha, no login step**
-- **Kingdom-aware** — every redemption sends your kingdom id (`kid`) so codes land on the right account
-- **Batch redemption** for all alliance members with **hundreds of concurrent requests** per batch
-- **Smart retry system** with exponential backoff for transient failures
+- **Automatic scanning** of official game channels every **5 minutes**
+- **Instant validation** against the official Kingshot API
+- **Batch redemption** for all alliance members with **500 concurrent requests** per batch
+- **Built-in CAPTCHA solver** — custom ONNX model with **~98% accuracy** (~3.5ms per solve)
+- **Smart retry system** with exponential backoff for failed redemptions
 - **Per-member tracking** — see exactly which codes succeeded, failed, or were already used
 - **Notifications** — new code alerts sent and **pinned** in your group automatically
 
 ### 👥 Alliance Member Management
-- **Quick registration** — members type `/register [FID]` and set their kingdom, and they're in
-- **Kingdom collection** — because Lord Rush redeems per kingdom, registration asks for your kingdom number up front
-- **Admin add/remove** — manage the roster with `/addmember` and `/removemember`
+- **Quick registration** — members type `/register [FID]` and they're in
+- **DM confirmation** — automatic DM verification for secure registration
+- **Cross-game detection** — automatically identifies which game (WOS/Kingshot) a player belongs to
 - **Member export** — export your full member list as a file
 
-### 🏆 Leaderboard
-- **Alliance & member rankings** by codes redeemed and activity
-- **Podium, tiers & badges** on the website
-- **Cross-platform** — one shared leaderboard across Telegram and Discord
+### 📊 Real-Time Player Monitoring
+- **🔥 Furnace level changes** — know when members upgrade their furnace
+- **📝 Nickname changes** — track when members change their in-game name
+- **🌍 State migrations** — detect when members move to a different state
+- **📜 Change history** — view a member's complete change log with `/history`
+- **Batch processing** — monitors **500 players concurrently** per cycle
+
+### 🔄 Kingdom Transfer System
+- **Power limits** — current caps by generation and furnace level
+- **Transfer schedule** — upcoming windows with exact dates
+- **Neighborhood groups** — which states can transfer to each other
+- **Cost calculator** — estimated transfer cost and alliance store prices
+- **Requirements** — all conditions needed to transfer (cooldown, power cap, FC level)
+
+### 🤪 Crazy Joe Event Guide
+- **Interactive wave guide** — all 20 waves for difficulty levels 1-11
+- **Button navigation** — no typing needed, everything is clickable
+- **Point calculator** — compare total points across all difficulties
+- **Difficulty recommendation** — based on your alliance's average furnace level
+- **Critical wave alerts** — online waves (7, 14, 17) and HQ waves (10, 20)
+
+### 🐻 Event Management & Bear Trap
+- **Bear Trap timer** with configurable reminders
+- **Custom event scheduling** for your alliance
+- **Multi-channel alerts** — notifications in both Telegram and Discord
+
+### 🧮 Game Calculators
+- **Troop training & promotion** (T1–T11)
+- **Chief Gear upgrades** (Green to Pink, 0–5 stars)
+- **Charm upgrades** (Level 0–16)
+- **Hero Gear enhancement & mastery** forging
 
 ### 🌐 Multi-Platform & Multi-Language
 - **Telegram + Discord** — full feature parity, shared database
-- **English, 日本語, 한국어, Русский, Türkçe** — per-group language configuration
+- **English, Turkish, Russian, Korean** — per-group language configuration
 - **Cross-platform sync** — register on Telegram, see data on Discord (and vice versa)
 - **🆕 Want to add your language?** Translation files are in [`/locales/`](locales/)
 
@@ -188,18 +216,19 @@ The bot operates on both **Telegram** and **Discord** simultaneously, with a sha
 │                    Dedicated Server (24/7)                         │
 ├───────────────────────────────────────────────────────────────────┤
 │                                                                   │
-│   📡 Gift Code Scanner            🎁 Redemption Engine           │
+│   📡 Gift Code Scanner            🔄 Member Control Loop          │
 │   ┌─────────────────────┐         ┌────────────────────────────┐  │
-│   │ Scans for new codes │         │ Single signed POST         │  │
-│   │ every 5 min         │         │ per (fid, kid)             │  │
-│   │ Validates via API   │         │ Kingdom-aware, no captcha  │  │
-│   │ Stores in database  │         │ Hundreds concurrent/batch  │  │
+│   │ Scans official game │         │ Checks every 20 min        │  │
+│   │ channels every 5min │         │ 10 players/batch           │  │
+│   │ Validates via API   │         │ Detects furnace/name/state │  │
+│   │ Auto-redeems codes  │         │ Sends change notifications │  │
+│   │ ONNX captcha solver │         │ Updates database           │  │
 │   └─────────┬───────────┘         └─────────────┬──────────────┘  │
 │             │                                   │                 │
 │   ┌─────────▼───────────────────────────────────▼──────────────┐  │
 │   │                    PostgreSQL Database                      │  │
 │   │  users · alliance_list · gift_codes · user_giftcodes       │  │
-│   │  alliancesettings                                          │  │
+│   │  alliancesettings · nickname_changes · furnace_changes     │  │
 │   └─────────┬───────────────────────────────────┬──────────────┘  │
 │             │                                   │                 │
 │   ┌─────────▼───────────┐         ┌─────────────▼──────────────┐  │
@@ -213,7 +242,7 @@ The bot operates on both **Telegram** and **Discord** simultaneously, with a sha
 
 ### Gift Code Redemption Flow
 ```
-  New codes scanned (every 5 min)
+  Official game channels scanned (every 5 min)
               │
               ▼
      ┌─────────────────┐
@@ -227,8 +256,8 @@ The bot operates on both **Telegram** and **Discord** simultaneously, with a sha
      └────────┬────────┘
               │
      ┌────────▼────────┐
-     │  Redeem for all  │──── Single signed POST /gift_code
-     │  members         │──── Kingdom-aware · no captcha
+     │  Redeem for all  │──── 500 concurrent redemptions/batch
+     │  members         │──── ONNX CAPTCHA solver (~98%)
      └────────┬────────┘
               │
        ┌──────┴──────┐
@@ -249,10 +278,13 @@ The bot operates on both **Telegram** and **Discord** simultaneously, with a sha
 |---------|-------------|
 | `/start` | 🚀 Start the bot and see overview |
 | `/help` | ❓ Help and command reference |
-| `/register [FID]` | 📝 Register your game account with your FID (and kingdom) |
+| `/register [FID]` | 📝 Register your game account with your FID |
+| `/profile` | 👤 View your player profile and stats |
+| `/checkuser [FID]` | 🔍 Look up any player by their FID |
 | `/codes` | 🎁 View all known gift codes and their status |
-| `/leaderboard` | 🏆 Alliance & member rankings |
 | `/language` | 🌐 Change your language preference |
+| `/calc` | 🧮 Open game calculators (troops, gear, charms) |
+| `/hero` | 🦸 Hero guide, tier list & Bear Trap recommendations |
 | `/premium` | 👑 View subscription plan and usage limits |
 | `/changelog` | 📋 View bot version history |
 | `/support` | 💬 Contact support |
@@ -271,14 +303,24 @@ The bot operates on both **Telegram** and **Discord** simultaneously, with a sha
 |---------|-------------|
 | `/addmember [FID] [TAG]` | ➕ Add a member to your alliance |
 | `/removemember [FID] [TAG]` | ➖ Remove a member |
+| `/history [FID]` | 🕵️ View a player's full change history |
 | `/delete` | 🗑️ Delete your own account |
+
+### 📅 Events & Tools
+| Command | Description |
+|---------|-------------|
+| `/crazyjoe` | 🤪 Crazy Joe interactive wave guide & calculator |
+| `/transfer` | 🔄 Kingdom transfer info, schedule & costs |
+| `/beartrap` | 🐻 Bear trap event timer & alerts |
+| `/statetimeline` | 🌍 State timeline, generation & events |
+| `/announcements` | 📢 Game announcements |
 
 ### 🛡️ Admin Tools
 | Command | Description |
 |---------|-------------|
 | `/admins` | 🛡️ Manage alliance admins |
 | `/panel` | ⚙️ Alliance control panel |
-| `/usecode [CODE]` | 🎫 Manually redeem a gift code for your alliance |
+| `/usecode [CODE]` | 🎫 Manually use a gift code for your alliance |
 | `/addcode [CODE]` | 📌 Manually add a gift code |
 | `/stats` | 📊 Bot statistics |
 | `/broadcast` | 📢 Send announcement to all groups |
@@ -286,15 +328,130 @@ The bot operates on both **Telegram** and **Discord** simultaneously, with a sha
 
 ---
 
-## 🏆 Leaderboard
+## 🔄 Kingdom Transfer System
 
-The `/leaderboard` command ranks your alliance and its members by real activity.
+The `/transfer` command provides comprehensive transfer information:
 
 ### What It Shows
-- **Top Alliances** — ranked by total gift codes redeemed and active members
-- **Top Members** — most codes redeemed within your alliance
-- **Podium & Tiers** — a winners' podium with tier rankings and badges on [woscontrol.com/leaderboard](https://woscontrol.com/leaderboard)
-- **Cross-Platform** — one shared leaderboard across Telegram and Discord
+- **Power Limits** — current caps by generation and furnace level
+- **Transfer Schedule** — upcoming windows with exact dates
+- **Neighborhood Groups** — which states can transfer to each other
+- **Cost Calculator** — estimated transfer cost (Alliance Store, passes)
+- **Requirements** — all conditions (cooldown, power cap, FC level, no alliance)
+
+### Transfer Phases
+1. **Pre-Transfer (3 days)** — Power caps are set
+2. **Invitational Transfer (2 days)** — President sends invites
+3. **Open Transfer (2 days)** — Everyone can transfer freely
+
+### Example Output
+```
+🔄 Kingdom Transfer Info
+━━━━━━━━━━━━━━━━━━━━
+
+🏰 State S1234
+📅 Server Age: 666 days
+⭐ Current Generation: Gen 9
+🔜 Next Generation: Gen 10 (41 days)
+🏘️ Neighborhood Group: 1183 - 1240
+🔄 Transfer Group: 986-1308
+
+⚔️ Current Power Limits
+━━━━━━━━━━━━━━━━━━━━
+👑 Ordinary: 680m | 🏅 Leading: 372m
+🦸 Hero Gen: 9 | 🔥 FC: 10
+⚙️ Legendary Gear: ✅ | 🏛️ War Academy: ✅
+
+📅 Next Transfer Dates
+━━━━━━━━━━━━━━━━━━━━
+✅ Dates You CAN Transfer
+
+🔵 #1 — 27.04.2026 (After SVS)  (34 days)
+   🔥 Furnace Requirement: Lv 10
+   👑 Ordinary: 790m | Leading: 415m
+   🦸 Gen 10 | FC 10 | ⚙️✅ | 🏛️✅
+   📋 Transfer Group: 986-1308
+
+🔵 #2 — 25.05.2026 (After SVS)  (62 days)
+   🔥 Furnace Requirement: Lv 10
+   👑 Ordinary: 790m | Leading: 415m
+   🦸 Gen 10 | FC 10 | ⚙️✅ | 🏛️✅
+   📋 Transfer Group: 1082-1427
+
+🔵 #3 — 22.06.2026 (After SVS)  (90 days)
+   🔥 Furnace Requirement: Lv 10
+   👑 Ordinary: 790m | Leading: 415m
+   🦸 Gen 10 | FC 10 | ⚙️✅ | 🏛️✅
+   📋 Transfer Group: 1190-1552
+
+🔵 #4 — 20.07.2026 (After SVS)  (118 days)
+   🔥 Furnace Requirement: Lv 10
+   👑 Ordinary: 830m | Leading: 435m
+   🦸 Gen 11 | FC 10 | ⚙️✅ | 🏛️✅
+   📋 Transfer Group: 986-1308
+
+🔵 #5 — 17.08.2026 (After SVS)  (146 days)
+   🔥 Furnace Requirement: Lv 10
+   👑 Ordinary: 830m | Leading: 435m
+   🦸 Gen 11 | FC 10 | ⚙️✅ | 🏛️✅
+   📋 Transfer Group: 1082-1427
+
+💰 Transfer Cost
+━━━━━━━━━━━━━━━━━━━━
+📊 Transfer Score = Furnace + Gear + Hero + Pet + Expert power (Troop power excluded)
+🎫 Cost range: 1-50 Pass
+💡 F2P/Low spender typical cost: 6-12 Pass
+🏪 Alliance Store: 150K Token
+
+📋 Transfer Requirements
+━━━━━━━━━━━━━━━━━━━━
+1️⃣ Must not exceed the Power Cap
+2️⃣ Must reach required Furnace level (varies with state age)
+3️⃣ Must not be in any Alliance
+4️⃣ City must not be in combat
+5️⃣ 25+ days since last transfer
+6️⃣ Target state must have same Hero Gen and FC level
+7️⃣ Fewer than 4 characters in target state
+
+📌 Transfer Phases
+━━━━━━━━━━━━━━━━━━━━
+🔸 Phase 1: Pre-Transfer (3 days) — Power caps are set
+🔸 Phase 2: Invitational Transfer (2 days) — President sends invites
+🔸 Phase 3: Open Transfer (2 days) — Everyone can transfer
+
+⚠️ What You Lose After Transfer
+━━━━━━━━━━━━━━━━━━━━
+• Removed from all group chats
+• Unsecured resources lost (inventory stays)
+• Arena points reset to 1,000
+• Pack purchase limits reset
+
+🔄 Migration calculator: /migrate
+```
+
+---
+
+## 🤪 Crazy Joe Event Guide
+
+Interactive event guide accessible via `/crazyjoe` with button navigation — **no typing needed**.
+
+### Features
+- **📊 Wave Guide** — all 20 waves for each difficulty level (Lv.1-11)
+- **📈 Point Calculator** — compare total points across all difficulties with % increase
+- **🏆 Difficulty Recommendation** — based on your alliance's average furnace level & member count
+- **⚡ Quick Jump** — instant access to critical waves (W7, W10, W14, W17, W20)
+
+### Critical Waves
+| Wave | Type | Alert |
+|------|------|-------|
+| **7, 14, 17** | 🟢 Online Members | All members must be online! |
+| **10, 20** | 🏰 HQ Defense | Send reinforcements — no self-defense points |
+
+### Data Coverage
+- **11 difficulty levels** with exact troop counts, tier composition, and point values
+- **Enemy tier progression**: T1-T2 (Wave 1) → T9-T10 (Wave 20)
+- **~11.8% troop increase** per difficulty level
+- **~5% point increase** per difficulty level
 
 ---
 
@@ -303,7 +460,7 @@ The `/leaderboard` command ranks your alliance and its members by real activity.
 ### Quick Setup (5 minutes)
 **1.** Add the bot to your Telegram group or Discord server
 **2.** Run `/setupalliance` and follow the guided setup
-**3.** Have your members type `/register [FID]` and set their kingdom
+**3.** Have your members type `/register [FID]`
 **4.** Gift codes are redeemed automatically — sit back and relax! 🎉
 
 ### Add to Telegram
@@ -325,7 +482,7 @@ Contact us for a **free trial** with full access to all features:
 
 ## 🎁 Get Gift Codes — No Bot Required
 
-Don't have the bot set up yet? You can still get **Lord Rush gift codes** redeemed for your account instantly.
+Don't have the bot set up yet? You can still get **Kingshot gift codes** redeemed for your account instantly.
 
 <div align="center">
 
@@ -337,7 +494,7 @@ Don't have the bot set up yet? You can still get **Lord Rush gift codes** redeem
 
 > 📋 **How it works:**
 > 1. Find all active codes at **[woscontrol.com/codes](https://woscontrol.com/codes)**
-> 2. Contact [@btuncsiper](https://t.me/btuncsiper) on Telegram with your **FID** and **kingdom number**
+> 2. Contact [@btuncsiper](https://t.me/btuncsiper) on Telegram with your **FID**
 > 3. All active gift codes get redeemed for your account — instantly, no registration needed
 > 4. Add the bot to your alliance group for permanent, fully automatic redemption 🚀
 
@@ -346,13 +503,13 @@ Don't have the bot set up yet? You can still get **Lord Rush gift codes** redeem
 ## 📖 Guides
 
 ### How to Find Your FID
-Your **FID (Fighter ID)** is your unique player identifier in Lord Rush.
+Your **FID (Fighter ID)** is your unique player identifier in Kingshot.
 
-1. Open **Lord Rush**
-2. Tap your **avatar / profile** in the top-left corner
-3. Your **FID** is displayed on your player info screen
+1. Open **Kingshot**
+2. Tap your **avatar** in the top-left corner
+3. Your **FID** is displayed below your nickname
 
-> 💡 Your FID is a number like `123456789`. Copy it and use `/register 123456789` to register with the bot. You'll also be asked for your **kingdom number** — codes are redeemed per kingdom, so this makes sure they reach the right account.
+> 💡 Your FID is a number like `123456789`. Copy it and use `/register 123456789` to register with the bot.
 
 ---
 
@@ -365,8 +522,8 @@ Your **FID (Fighter ID)** is your unique player identifier in Lord Rush.
 | **Discord API** | discord.py v2.x | Slash commands, embeds, views |
 | **Database** | PostgreSQL 15+ | Connection pooling, composite keys |
 | **HTTP Client** | aiohttp | Async API calls, session management |
-| **CAPTCHA Solver** | ONNX Runtime (local) | Platform capability — **not needed for Lord Rush** (redeem is a single signed call, no captcha) |
-| **Proxy** | Residential rotating proxies | Rate limit avoidance |
+| **CAPTCHA Solver** | ONNX Runtime (local) | Custom model, ~98% accuracy, ~3.5ms |
+| **Proxy** | Residental rotating proxies | Rate limit avoidance |
 | **Hosting** | Dedicated Server | 24/7 uptime, Windows Server |
 | **Payments** | Stripe (optional) | Subscription management |
 
@@ -374,15 +531,17 @@ Your **FID (Fighter ID)** is your unique player identifier in Lord Rush.
 | Parameter | Value | Description |
 |-----------|-------|-------------|
 | Gift Code Scan Interval | **5 minutes** | How often new codes are checked |
-| Gift Code Batch Size | **hundreds concurrent** | Code redemption parallelism |
-| Redemption Call | **single signed POST** | One `/gift_code` per `(fid, kid)` — no captcha, no login |
+| Member Check Interval | **20 minutes** | Default alliance monitoring interval |
+| API Batch Size | **500 concurrent** | Player data fetch parallelism |
+| Gift Code Batch Size | **500 concurrent** | Code redemption parallelism |
+| CAPTCHA Solve Time | **~3.5ms** | Local ONNX model inference |
 
 ### Architecture Highlights
 - **Single-process dual-bot** — Telegram and Discord run concurrently in one process
 - **Shared PostgreSQL database** — full cross-platform data consistency
-- **Modular design** — separate modules for registration, gift codes, alliance, and premium
-- **Multi-language locale system** — JSON-based, per-group language settings (EN/JA/KO/RU/TR)
-- **Game-type awareness** — all operations scoped by game type (`lr`) for multi-game support
+- **Modular design** — separate modules for registration, gift codes, control, alliance, events, premium
+- **Multi-language locale system** — JSON-based, per-group language settings (EN/TR/RU)
+- **Game-type awareness** — all operations scoped by game type for multi-game support
 - **Auto GitHub sync** — README, changelog, and locales auto-pushed on version change
 
 ---
@@ -405,15 +564,15 @@ Language files are in the [`locales/`](locales/) directory.
 
 ## ❓ FAQ
 <details>
-<summary><b>How do I find my Lord Rush player ID (FID)?</b></summary>
+<summary><b>How do I find my FID (Fighter ID)?</b></summary>
 
-Open Lord Rush → Tap your avatar / profile (top-left corner) → Your FID is displayed on your player info screen. It's a number like `123456789`. When you register, you'll also be asked for your **kingdom number**, since codes are redeemed per kingdom.
+Open Kingshot → Tap your avatar (top-left corner) → Your FID is displayed below your nickname. It's a number like `123456789`.
 </details>
 
 <details>
 <summary><b>Is this bot safe to use?</b></summary>
 
-Absolutely. The bot uses the **official gift code redemption API** — the exact same endpoint the game's own website uses. It does **not** access your game account, modify your game data, or require your password. Redemption is a single signed request; there is no login step.
+Absolutely. The bot uses the **official gift code redemption API** — the exact same API that the game's own website uses. It does **not** access your game account, modify your game data, or require your password.
 </details>
 
 <details>
@@ -423,21 +582,15 @@ Every **5 minutes**. When a new code is discovered, it is validated and redeemed
 </details>
 
 <details>
-<summary><b>Why does the bot need my kingdom number?</b></summary>
-
-Lord Rush redeems gift codes **per kingdom** — the redemption request must include your kingdom id (`kid`). Providing your kingdom at registration guarantees every code lands on the correct account.
-</details>
-
-<details>
 <summary><b>Can I use this bot for multiple alliances?</b></summary>
 
-Yes! Each alliance has its own configuration, member list, language setting, and notification channels. Premium plans allow managing more alliances with higher member limits.
+Yes! Each alliance has its own configuration, member list, monitoring interval, language setting, and notification channels. Premium plans allow managing more alliances with higher member limits.
 </details>
 
 <details>
 <summary><b>What languages are supported?</b></summary>
 
-**English**, **日本語** (Japanese), **한국어** (Korean), **Русский** (Russian), and **Türkçe** (Turkish). Each group can independently set their preferred language.
+**English**, **Turkish** (Türkçe), and **Russian** (Русский). Each group can independently set their preferred language.
 </details>
 
 <details>
@@ -470,7 +623,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 <br><br>
 
-**v5.0.0** · Last updated: 2026-07-24
+**v5.0.0** · Last updated: 2026-07-28
 
 <br>
 
@@ -481,26 +634,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 <br>
 
-**Lord Rush** · **Lord Rush Bot** · **Gift Code Bot** · **Alliance Management** · **Auto Redeem**
-**Telegram Bot** · **Discord Bot** · **Free Gift Codes** · **Lord Rush Helper** · **Century Games**
+**Kingshot** · **Kingshot Bot** · **Gift Code Bot** · **Alliance Management** · **Auto Redeem**
+**Telegram Bot** · **Discord Bot** · **Free Gift Codes** · **Furnace Tracker** · **Kingshot Helper**
 
 </div>
-
-
----
-
-## API Transparency
-
-We continuously datamine **Lord Rush**'s official gift-code client and publish its API surface in the open — every endpoint, the request parameters, and the signature **scheme** (the signing key is published too), plus each change over time. The scan is strictly read-only: it observes the game's public web client and never modifies the API or our redemption keys.
-
-![endpoints 4](https://img.shields.io/badge/endpoints-4-57606a?style=flat-square)
-![live 2](https://img.shields.io/badge/live-2-2ea44f?style=flat-square)
-![removed 2](https://img.shields.io/badge/removed-2-cf222e?style=flat-square)
-![log append-only](https://img.shields.io/badge/log-append--only-57606a?style=flat-square)
-
-<sub>Baseline mapped 24/07/2026 — redemption is a single signed `POST /gift_code`, kingdom-aware, no captcha; `/player` and `/captcha` answer 404 (removed by Century Games, mirroring their other titles).</sub>
-
-- **[Live API surface →](API_ENDPOINTS.md)** — current endpoints, backend status, payload keys, signature scheme (key included)
-- **[Change timeline →](API_DATAMINING.md)** — append-only history of every observed change
-
-<sub>Payload keys are reported as a per-bundle set — minification hides which key belongs to which endpoint.</sub>
