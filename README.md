@@ -13,9 +13,9 @@
 
 <br><br>
 
-# 👑 Kingshot Bot
+# ⚔️ Lord Rush Bot
 
-### The Ultimate Gift Code & Alliance Management Bot for Kingshot
+### The Ultimate Gift Code & Alliance Management Bot for Lord Rush
 
 <br>
 
@@ -83,7 +83,7 @@ We need volunteers to report **kingdom transfer dates** for their states. Know y
 
 ### ✅ Current Contributors
 
-> *Be the first — get your name seen by thousands of Kingshot players!*
+> *Be the first — get your name seen by thousands of Lord Rush players!*
 > <!-- Contributors list is updated manually -->
 
 ---
@@ -102,7 +102,7 @@ We need volunteers to report **kingdom transfer dates** for their states. Know y
 ---
 
 ## 🎯 What Is This?
-**Kingshot Bot** is a fully automated, production-grade management bot designed specifically for **Kingshot** alliance leaders and members. It runs **24/7 on a dedicated server**, monitoring official game channels for new gift codes and redeeming them instantly for every registered member in your alliance.
+**Lord Rush Bot** is a fully automated, production-grade management bot designed specifically for **Lord Rush** alliance leaders and members. It runs **24/7 on a dedicated server**, monitoring official game channels for new gift codes and redeeming them instantly for every registered member in your alliance.
 
 The bot operates on both **Telegram** and **Discord** simultaneously, with a shared database ensuring full cross-platform synchronization. Everything from gift code redemption to member tracking is completely automated — no manual intervention required.
 
@@ -121,7 +121,7 @@ The bot operates on both **Telegram** and **Discord** simultaneously, with a sha
 | 🏠 **Home** | [woscontrol.com](https://woscontrol.com) | Overview, features & quick start |
 | 🎁 **Gift Codes** | [woscontrol.com/codes](https://woscontrol.com/codes) | Live code list — auto-updated every 5 min |
 | 🔍 **Player Lookup** | [woscontrol.com/player-search](https://woscontrol.com/player-search) | Search any player by FID or nickname |
-| 📺 **YouTubers** | [woscontrol.com/youtubers](https://woscontrol.com/youtubers) | Featured Kingshot content creators |
+| 📺 **YouTubers** | [woscontrol.com/youtubers](https://woscontrol.com/youtubers) | Featured Lord Rush content creators |
 | 📖 **Wiki** | [woscontrol.com/wiki](https://woscontrol.com/wiki) | Game guides, calculators & event info |
 | 🤝 **Recruitment** | [woscontrol.com/recruitment](https://woscontrol.com/recruitment) | Alliance recruitment board |
 | 💬 **Live Chat** | [woscontrol.com/chat](https://woscontrol.com/chat) | Alliance live chat system |
@@ -149,7 +149,7 @@ The bot operates on both **Telegram** and **Discord** simultaneously, with a sha
 
 ### 🎁 Automatic Gift Code Redemption
 - **Automatic scanning** of official game channels every **5 minutes**
-- **Instant validation** against the official Kingshot API
+- **Instant validation** against the official Lord Rush API
 - **Batch redemption** for all alliance members with **500 concurrent requests** per batch
 - **Built-in CAPTCHA solver** — custom ONNX model with **~98% accuracy** (~3.5ms per solve)
 - **Smart retry system** with exponential backoff for failed redemptions
@@ -482,7 +482,7 @@ Contact us for a **free trial** with full access to all features:
 
 ## 🎁 Get Gift Codes — No Bot Required
 
-Don't have the bot set up yet? You can still get **Kingshot gift codes** redeemed for your account instantly.
+Don't have the bot set up yet? You can still get **Lord Rush gift codes** redeemed for your account instantly.
 
 <div align="center">
 
@@ -503,9 +503,9 @@ Don't have the bot set up yet? You can still get **Kingshot gift codes** redeeme
 ## 📖 Guides
 
 ### How to Find Your FID
-Your **FID (Fighter ID)** is your unique player identifier in Kingshot.
+Your **FID (Fighter ID)** is your unique player identifier in Lord Rush.
 
-1. Open **Kingshot**
+1. Open **Lord Rush**
 2. Tap your **avatar** in the top-left corner
 3. Your **FID** is displayed below your nickname
 
@@ -566,7 +566,7 @@ Language files are in the [`locales/`](locales/) directory.
 <details>
 <summary><b>How do I find my FID (Fighter ID)?</b></summary>
 
-Open Kingshot → Tap your avatar (top-left corner) → Your FID is displayed below your nickname. It's a number like `123456789`.
+Open Lord Rush → Tap your avatar (top-left corner) → Your FID is displayed below your nickname. It's a number like `123456789`.
 </details>
 
 <details>
@@ -623,7 +623,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 <br><br>
 
-**v5.0.0** · Last updated: 2026-08-03
+**v5.0.0** · Last updated: 2026-08-13
 
 <br>
 
@@ -634,7 +634,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 <br>
 
-**Kingshot** · **Kingshot Bot** · **Gift Code Bot** · **Alliance Management** · **Auto Redeem**
-**Telegram Bot** · **Discord Bot** · **Free Gift Codes** · **Furnace Tracker** · **Kingshot Helper**
+**Lord Rush** · **Lord Rush Bot** · **Gift Code Bot** · **Alliance Management** · **Auto Redeem**
+**Telegram Bot** · **Discord Bot** · **Free Gift Codes** · **Furnace Tracker** · **Lord Rush Helper**
 
 </div>
